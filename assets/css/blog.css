@@ -1,0 +1,515 @@
+* {
+  box-sizing: border-box
+}
+
+
+
+/* <========================bootstrap=====================================> */
+
+
+
+.item img {
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.card {
+  width: 30vw;
+
+  border-radius: .6rem;
+  border-color: #fff;
+  background-color: #FFFEFF;
+  /* padding: 20px; */
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  /* margin-left: 18rem; */
+  margin: auto;
+  margin-top: -18rem;
+
+
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-body a {
+  color: #5F5F5F;
+  margin-top: auto;
+
+}
+
+.card-body .card-title {
+  color: black;
+  /* font-weight: 600; */
+  margin-top: 1rem;
+  padding-top: 6px;
+  font-size: 32px;
+}
+
+.card-body .card-text {
+  color: #363636;
+  /* font-weight: 500; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.carousel-indicators {
+
+  margin-left: 21%;
+}
+
+
+.carousel-indicators li {
+  background: transparent;
+  border-color: #042453;
+  border-width: 2px;
+
+
+}
+
+.carousel-indicators li.active {
+  background: #042453;
+
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 16px;
+  height: 16px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+
+
+/* ===================blog cards==================== */
+
+
+
+#blog_row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  margin-top: 6rem;
+
+
+}
+
+
+.blog_card {
+  position: relative;
+  height: auto;
+  background-color: #FCF9F6;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.cardimg .card-img-top {
+  border-radius: .6rem;
+  margin-bottom: 1rem;
+}
+
+.card-link {
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #363636;
+
+}
+
+.title {
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title a {
+  color: #111111;
+  font-size: 18px;
+
+
+}
+
+
+
+.bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  margin-left: 1rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+/* ===============================blog page========================== */
+#blog_title {
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+
+
+.blog-title {
+  text-align: center;
+  color: #111111;
+  font-size: 34px;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.card-link-blog {
+  margin: 1rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.section_2 {
+  margin-top: 5rem;
+}
+
+.textindent {
+  text-indent: 2em;
+
+}
+
+
+.img-responsive {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.table_image {
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+pre {
+  padding: 20px;
+  background-color: #1E1E1E;
+  color: #f6f6f6;
+  text-align: left;
+  font-size: 12pt;
+  overflow: auto;
+  white-space: pre;
+}
+
+.contact-us a {
+  color: #4d4643;
+}
+
+/* .code_style{
+  margin-top: -1rem;
+  margin-left: -1rem;
+} */
+.title-author-sec {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+}
+
+.authors_main {
+  text-align: left;
+  border-top: 3px solid #ccc;
+  margin-top: 3rem;
+
+}
+
+.author-title p {
+  color: #4d4643;
+}
+
+
+
+.imagesqgis {
+  align-items: center;
+  text-align: center;
+
+}
+
+.images {
+  align-items: center;
+  text-align: center;
+
+}
+
+.qgisimg {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.htmlimg {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qgisimgcode {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* =======================code snippert========== */
+.db {
+  color: #358CD6;
+}
+
+.lb {
+  color: #9CDCFE;
+}
+
+.green {
+  color: #73C991;
+}
+
+.yello {
+  color: #E2C075;
+}
+
+.pi {
+  color: #C04DB4;
+}
+
+.lg {
+  color: #4DC500;
+}
+
+.org {
+  color: #E0B403;
+}
+
+.dg {
+  color: #348F22;
+}
+
+
+
+/* ==========================media query=================== */
+
+@media only screen and (min-width: 1920) and (max-width: 2240px) {
+  .card {
+    width: 30vw;
+    margin-top: -19rem;
+  }
+
+  .card-body .card-title {
+    font-size: 36px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1591) and (max-width: 1920px) {
+  .card {
+    width: 40vw;
+    margin-top: -19rem;
+  }
+
+  .card-body .card-title {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1590px) {
+  .minht {
+    min-height: 650px;
+  }
+
+  .card {
+    width: 36vw;
+    /* margin-top: -16rem; */
+  }
+
+  .card-body .card-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
+  .minht {
+    min-height: 600px;
+  }
+
+  .card {
+    width: 40vw;
+    margin-top: -16rem;
+  }
+
+  .card-body .card-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .minht {
+    min-height: 580px;
+  }
+
+  .card {
+    width: 38vw;
+    margin-top: -16rem;
+  }
+
+  .card-body .card-title {
+    font-size: 28px;
+  }
+
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .minht {
+    min-height: 550px;
+  }
+
+
+  .card {
+    width: 40vw;
+    margin-top: -16rem;
+  }
+
+  .card-body .card-title {
+    font-size: 24px;
+  }
+
+}
+
+
+@media (min-width:768px) and (max-width:995px) {
+  .minht {
+    min-height: 450px;
+  }
+
+  #c_img {
+    margin-left: 10px !important;
+  }
+
+
+  .card {
+    width: 40vw;
+    margin-top: -10rem;
+  }
+
+  .card-body .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .card-body .card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  .minht {
+    min-height: 450px;
+  }
+
+  .card {
+    width: 40vw;
+    margin-top: -10rem;
+  }
+
+  .card-body .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .card-body .card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+  .minht {
+    min-height: 400px;
+  }
+
+  .card {
+    width: 60vw;
+    margin-top: -10rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+
+  .card-body .card-title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: .4rem;
+    padding-top: 1px;
+  }
+
+  .card-body .card-text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .card-body a {
+    font-size: 10px;
+
+
+  }
+}
+
+@media (max-width:420px) {
+  .card {
+    width: 60vw;
+    margin-top: -10rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+
+  .card-body .card-title {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: .4rem;
+    padding-top: 1px;
+  }
+
+  .card-body .card-text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .card-body a {
+    font-size: 8px;
+
+
+  }
+}
